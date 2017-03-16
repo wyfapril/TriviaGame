@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnimalTrivia</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<div id="container">
+	<h1>Trivial Trivia about Animals</h1>
+	<div id="start">
+		<p>In this Trivial Trivia game, you are given 100 seconds to answer 10 multiple-choice questions. <br> <br>Click START to begin the game. </p> <br>
+		<button id="startBtn">START</button>
+	</div>
+	
+	<div id="questions">
+		<div id="timer">Time Remaining: 100 Seconds</div>
+		<form>
+			<p>Q1: An adult lion's roar can be heard up to ____ miles away, and warns off intruders or reunites scattered members of the pride. </p>
+			  <input type="radio" name="question1" value="4"> 4 
+			  <input type="radio" name="question1" value="5"> 5 
+			  <input type="radio" name="question1" value="6"> 6 
+			  <input type="radio" name="question1" value="7"> 7 
+			<p>Q2: ______ swallow large stones that stay permanently in their bellies. It's been suggested these are used for ballast in diving. </p>
+			  <input type="radio" name="question2" value="Shark"> Sharks
+			  <input type="radio" name="question2" value="Otter"> Otters
+			  <input type="radio" name="question2" value="Crocodiles"> Crocodiles
+			  <input type="radio" name="question2" value="Sea lions"> Sea lions
+			<p>Q3: ______ have killed more than 400 people in Africa - more than any other wild animal. </p>
+			  <input type="radio" name="question3" value="Hippos"> Hippos
+			  <input type="radio" name="question3" value="Lions"> Lions
+			  <input type="radio" name="question3" value="African wild dogs"> African wild dogs
+			  <input type="radio" name="question3" value="Elephants"> Elephants
+			<p>Q4: In its entire lifetime, the average worker bee produces ____ teaspoon of honey. </p>
+			  <input type="radio" name="question4" value="1/12"> 1/12
+			  <input type="radio" name="question4" value="1/2"> 1/2
+			  <input type="radio" name="question4" value="1"> 1
+			  <input type="radio" name="question4" value="2"> 2
+			<p>Q5: The ______ is the only cat in the world that can't retract its claws. </p>
+			  <input type="radio" name="question5" value="leopard"> leopard
+			  <input type="radio" name="question5" value="jaguar"> jaguar
+			  <input type="radio" name="question5" value="panther"> panther
+			  <input type="radio" name="question5" value="cheetah"> cheetah
+			<p>Q6: Worldwide, ______ provide people with more meat and milk than any other domestic animal. </p>
+			  <input type="radio" name="question6" value="cows"> cows
+			  <input type="radio" name="question6" value="sheep"> sheep
+			  <input type="radio" name="question6" value="goats"> goats
+			  <input type="radio" name="question6" value="donkeys"> donkeys
+			<p>Q7: The world's smallest mammal is the bumblebee bat of Thailand, weighing less than ______. </p>
+			  <input type="radio" name="question7" value="a penny"> a penny
+			  <input type="radio" name="question7" value="a nickel"> a nickel
+			  <input type="radio" name="question7" value="a quarter"> a quarter
+			  <input type="radio" name="question7" value="a dollar"> a dollar 
+			<p>Q8: The first house rats recorded in America appeared in ______ in 1775. </p>
+			  <input type="radio" name="question8" value="Baltimore"> Baltimore
+			  <input type="radio" name="question8" value="New York"> New York
+			  <input type="radio" name="question8" value="Boston"> Boston
+			  <input type="radio" name="question8" value="Philadelpia"> Philadelphia
+			<p>Q9: ______ apparently are the only animals that never get sick. As far as is known, they are immune to every known disease including cancer. </p>
+			  <input type="radio" name="question9" value="Rats"> Rats
+			  <input type="radio" name="question9" value="Sharks"> Sharks
+			  <input type="radio" name="question9" value="Crockroaches"> Crockroaches
+			  <input type="radio" name="question9" value="Whales"> Whales
+			<p>Q10: Large kangaroos cover more than ____ feet with each jump. </p>
+			  <input type="radio" name="question10" value="20"> 20
+			  <input type="radio" name="question10" value="30"> 30
+			  <input type="radio" name="question10" value="40"> 40 
+			  <input type="radio" name="question10" value="50"> 50 
+		</form> 
+	</div>
+
+	<div id="results">		
+		<div id="timeUp">Time's up!</div>
+		<h3 id="correct">Correct: </h3>
+		<h3 id="wrong">Wrong: </h3>
+		<h3 id="notAnswered">Not Answered: </h3>
+	</div>
+	
+</div>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
